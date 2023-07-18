@@ -7,6 +7,11 @@ Large	        ≥992px
 
 /* X-Small Screen Styles */
 @media screen and (max-width: 576px) {
+    .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
     .header-content {
         flex-direction: column;
     }
@@ -14,17 +19,35 @@ Large	        ≥992px
     .main-menu li {
         margin-left: 10px;
     }
+
+    .hero-desc {
+        padding: 10px 20px;
+    }
 }
 
 /* Small Screen Styles */
 @media screen and (min-width: 576px) and (max-width: 768px) {
+    .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
     .main-menu li {
         margin-left: 10px;
+    }
+
+    .hero-desc {
+        padding: 10px 20px;
     }
 }
 
 /* Medium Screen Styles */
-@media screen and (min-width: 768px) and (max-width: 992px) {}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
 
 /* Large Screen Styles */
 @media screen and (min-width: 992px) {}
