@@ -40,8 +40,8 @@ a {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  display: inline-block;
 }
-
 
 .deft-text {
   color: #727272;
@@ -53,7 +53,6 @@ a {
 }
 
 /* Header Design */
-
 #header {
   background-color: rgba(255, 144, 14, 0.10);
   /* position: sticky; */
@@ -126,9 +125,52 @@ a {
   padding: 10px 120px;
 }
 
+/* Quick Features Styles */
 
+.qf-content {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
 
+.qf-left {
+  flex-basis: 50%;
+  padding-right: 50px;
+}
 
+.qf-title {
+  font-size: 1.87rem;
+  font-weight: 500;
+  color: #727272;
+  line-height: normal;
+}
+
+/* .qf-title .one{} */
+.qf-title .two {
+  font-weight: 700;
+  color: #131313;
+}
+
+.qf-title .three {
+  font-weight: 700;
+  color: #FF900E;
+}
+
+.qf-desc {
+  padding: 22px 0;
+  text-align: left;
+}
+
+.qf-right {
+  flex-basis: 50%;
+  text-align: left;
+}
+
+.qf-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px
+}
 
 
 
