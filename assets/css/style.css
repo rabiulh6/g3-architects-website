@@ -49,14 +49,15 @@ a {
   font-weight: 400;
   text-align: center;
   line-height: 1.62rem;
+  text-align: center;
 }
 
 /* Header Design */
 
 #header {
   background-color: rgba(255, 144, 14, 0.10);
-  position: sticky;
-  top:0;
+  /* position: sticky; */
+  /* top: 0; */
 }
 
 .header-content {
@@ -121,6 +122,31 @@ a {
   line-height: normal;
 }
 
-.hero-desc{
+.hero-desc {
   padding: 10px 120px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer Styles */
+#footer {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.footer-content {
+  border-radius: 8px;
+  background: #FFF4E7;
+  padding: 38px 0;
+}
+
+.copyright-text {
+  color: #424242;
 }
