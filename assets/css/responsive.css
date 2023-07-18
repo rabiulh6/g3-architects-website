@@ -64,6 +64,10 @@ Large	        ≥992px
     .sf-icon-wrapper {
         justify-content: space-around;
     }
+
+    .sf-desc {
+        width: 100%;
+    }
 }
 
 /* Small Screen Styles */
@@ -109,6 +113,10 @@ Large	        ≥992px
 
     .sf-icon-wrapper {
         justify-content: space-around;
+    }
+
+    .sf-desc {
+        width: 100%;
     }
 }
 
