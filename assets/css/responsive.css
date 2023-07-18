@@ -38,6 +38,28 @@ Large	        ≥992px
     .qf-left {
         padding: 30px 0 0 0;
     }
+
+    .fe-content {
+        flex-direction: column;
+    }
+
+    .fe-title {
+        margin-top: 0;
+    }
+
+    .fe-img {
+        margin-left: 60px;
+    }
+
+    .fe-left,
+    .fe-right {
+        padding: 0;
+    }
+
+    .fe-text-box {
+        bottom: 100px;
+        right: 0;
+    }
 }
 
 /* Small Screen Styles */
@@ -57,6 +79,28 @@ Large	        ≥992px
 
     .qf-content {
         padding: 20px;
+    }
+
+    .fe-content {
+        flex-direction: column;
+    }
+
+    .fe-title {
+        margin-top: 0;
+    }
+
+    .fe-img {
+        margin-left: 60px;
+    }
+
+    .fe-left,
+    .fe-right {
+        padding: 0;
+    }
+
+    .fe-text-box {
+        bottom: 100px;
+        right: 0;
     }
 }
 

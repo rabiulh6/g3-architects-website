@@ -133,7 +133,7 @@ a {
 }
 
 .qf-left {
-  flex-basis: 50%;
+  flex-basis: 60%;
   padding-right: 50px;
 }
 
@@ -161,7 +161,7 @@ a {
 }
 
 .qf-right {
-  flex-basis: 50%;
+  flex-basis: 40%;
   text-align: left;
 }
 
@@ -170,6 +170,97 @@ a {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px
 }
+
+/* Features Love and enjoy Styles */
+#featuresEnjoy {
+  padding: 50px 0;
+}
+
+.fe-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.fe-left {
+  flex-basis: 40%;
+  padding-right: 30px;
+}
+
+.fe-right {
+  flex-basis: 60%;
+  padding-left: 50px;
+}
+
+.fe-title {
+  margin-top: 25px;
+  color: #131313;
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 15px;
+  padding-right: 20px;
+  border-left: 4px solid #FF900E;
+}
+
+.fe-desc {
+  text-align: left;
+  padding: 20px 0;
+  font-size: 1rem;
+  line-height: 26px;
+}
+
+.fe-card {
+  padding: 24px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.fe-card-title {
+  color: #131313;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.fe-card-text {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.fe-text-box {
+  text-align: center;
+  color: #fff;
+  border-radius: 8px;
+  background-color: #FF900E;
+  padding: 40px;
+  display: inline-block;
+  position: relative;
+  bottom: 110px;
+  right: 60px;
+}
+
+.fe-text-box h2 {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.fe-text-box p {
+  font-size: 1.26rem;
+  font-weight: 500;
+}
+
+
+
+
 
 
 
