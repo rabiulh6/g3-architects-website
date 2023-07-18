@@ -12,6 +12,15 @@ Background-color: rgba(255, 144, 14, 0.10);
   font-family: "Work Sans", sans-serif;
 }
 
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* Common use styles */
 .container {
   max-width: 1140px;
@@ -20,4 +29,51 @@ Background-color: rgba(255, 144, 14, 0.10);
 
 .primary-btn {
   background-color: rgba(255, 144, 14, 0.10);
+}
+
+
+
+/* Header Design */
+
+#header {
+  background-color: rgba(255, 144, 14, 0.10);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-text {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding: 8px 10px;
+}
+
+.logo-text a {
+  color: #131313;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-menu li{
+  margin-left: 40px;
+}
+
+.main-menu a {
+  display: inline-block;
+  padding: 8px 10px;
+  font-size: 1.12rem;
+  font-weight: 500;
+  line-height: normal;
+  color: #424242;
+  /* background-color: tomato; */
 }
