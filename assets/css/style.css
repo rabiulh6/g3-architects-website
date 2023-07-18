@@ -1,0 +1,23 @@
+/* some information =======
+font-family: Work Sans
+Primary color:  #FF900E;
+Background-color: rgba(255, 144, 14, 0.10);
+*/
+
+/* Global Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Common use styles */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.primary-btn {
+  background-color: rgba(255, 144, 14, 0.10);
+}
